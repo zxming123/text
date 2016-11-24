@@ -1,0 +1,60 @@
+	.info_edit_tb{
+		width: 95% !important;
+		margin:0 auto !important;
+	}
+	.info_edit_tb tr label{
+		font-size: 15px !important;
+	}
+	.info_edit_tb thead tr{
+		font-size: 15px !important;
+	}
+	.info_edit_tb tbody tr{
+		font-size: 15px !important;
+		font-weight: 400 !important;
+	}
+	.info_edit_tb tbody td{
+		vertical-align: middle !important;
+	}
+	.add_line_item_btn{
+		margin:15px;
+		margin-left:30px;
+		font-size: 15px;
+		cursor: pointer;
+	}
+	button.add_item{
+		
+	}
+	#gaoguang_table input[type=file]{width:150px !important;}
+	
+	#gudong_tbody input{width:97% !important}
+	
+		#newPlat_info{
+		font-weight:bold;
+		font-size:20px;
+		min-width:1040px;
+	}
+	#newPlat_info ol{
+		padding-left:100px;
+	}
+	#table_left,#table_right{
+		width:46% !important;
+	}
+	#table_left{
+		float:left;
+		margin-left:4%
+	}
+	#table_right{
+		float:right;
+		margin-right:2%;
+	}
+	#table_left td, #table_right td{
+		font-size:16px !important;
+	}
+	.btn a{
+		color: #FFFFFF;
+		text-decoration:none;
+	}
+	.add_line_item_btn a
+	{
+		color:#333;
+	}

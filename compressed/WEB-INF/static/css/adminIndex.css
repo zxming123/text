@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+.module_box{
+	display:inline-block;
+	text-align: center;
+	margin:15px;
+	margin-top: 25px;
+}
+
+.module_circle{
+	border-radius:50%;
+	background-size:cover;
+	background-color:#f00;
+	padding: 25px;	
+}
+
+.module_title{
+	margin: 10px auto;
+	font-family: "华文细黑";
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.module_circle_img{
+	background-color:transparent;
+	border-radius:50%;
+	background-size:cover;
+	width:140px;
+	height:140px;
+}

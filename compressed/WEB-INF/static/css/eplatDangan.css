@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+.check_info{
+	margin-top: 40px;
+}
+
+.check_info .hd {
+    height: 40px;
+    background: #faf9f9;
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+    line-height: 40px;
+}
+
+.check_info .hd h3, .mod-mbox .hd .h3.current, .mod-mbox .hd .h3:hover {
+    display: block;
+    float: left;
+    padding: 0 30px;
+    border-top: 2px solid #0080cc;
+    line-height: 39px;
+    height: 39px;
+    background: #fff;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    border-right: 1px solid #ebebeb;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+right-span{
+	float:right;
+}
+
+
+
+.panel-heading-tag{
+	width:5px;
+	background-color: #027FC1;
+	padding-top:7px;
+	padding-bottom:7px;
+	margin-left: -15px;
+}
+
+.panel-heading h4{
+	padding-left:10px;
+	font-family:"微软雅黑";
+	display: inline !important; 
+}
+
+.tijiao{
+	margin-left:270px;
+}
+
+
+a:HOVER , a:FOCUS{
+	text-decoration: none;
+}
+
+#gaoguang_table input[type=file]{width:150px !important;}
+	
+#gudong_tbody input{width:97% !important}
+
+#association_tbody input{width:97% !important}

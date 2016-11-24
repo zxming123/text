@@ -1,0 +1,272 @@
+.sourcelist{
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.item
+{
+
+  border: #ddd solid 1px;
+ 
+}
+.item .title .newtitle
+{
+  padding: 10px;
+ 
+  line-height: 27px;
+}
+.item .title .nameBox .newtitle
+{
+
+  font-size: 22px;
+  color: #1678ae;
+  font-family: "microsoft yahei";
+}
+.item .title .newtitle .nameBox img 
+{
+
+  margin-top:-10px;
+  margin-right:10px;
+}
+.item .con
+{
+  padding: 5px 10px 0px 20px;
+  border-bottom: #f6f6f6 solid 1px;
+  line-height: 24px;
+}
+
+.item .con span
+{
+  display: inline-block;
+  padding-right: 10px;
+  width: 186px;
+  vertical-align: top;
+  font: 12px/1.5 "simsun","Arial";
+  color: #666;
+  word-wrap: break-word;
+}
+
+.item .con span.dateT
+{
+    width: auto;
+}
+
+
+
+.topList_fl {
+  float: left;
+}
+.topList li {
+  padding: 7px 10px;
+  margin-top: -1px;
+  overflow: hidden;
+  border-top: #eee solid 1px;
+}
+.topList i {
+  float: left;
+  margin-right: 5px;
+  overflow: hidden;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+  font-family: "arial";
+  background: #cdcdcd;
+}
+.topList i.t1 {
+  background: #0e7fb4;
+}
+.topList i.t2 {
+  background: #12a3e9;
+}
+.topList i.t3 {
+  background: #2eb0ef;
+}
+.topList a {
+  text-decoration: none;
+  color: #333;
+}
+
+.select-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+}
+
+.select-item {
+	font-size: 15px;
+	font-weight:bold;
+	float:left;
+	display:inline;
+	
+	
+}
+
+.select-focus {
+	background: #008EB7;
+	color: #fff;
+	padding:1px 4px;
+}
+
+
+.select-check {
+	float: none;
+
+	display:inline;
+}
+
+
+.kuang{
+	margin:0px;
+	
+}
+
+.shengfen
+{
+	min-height:50px;
+}
+
+.product-select{
+/* 			width: 700px; */
+/* 			  float: left; */
+			 padding-left: 80px;
+		
+		}
+		
+		
+		
+
+.product-select li {
+	display: inline-block;
+	padding: 0 10px;
+	margin: 2px;
+	height: 24px;
+	line-height: 24px;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.product-select li:hover {
+	background: #008EB7;
+	color: #fff;
+}
+
+.biaoBox .newtitle
+{
+/* 	 margin-top:-10px; */
+/*   	margin-right:10px; */
+
+	width:1100px;
+}
+
+
+
+.shouyilv
+{
+/* 	color:#c0c0c0; */
+	font-size: 15px;	
+}
+
+.shouyi
+{
+	color:#FF9966;
+	font-size:28px;	
+	margin-top:-10px;
+}
+
+.item1
+{
+	margin-top:10px;
+}
+
+.item2
+{
+	margin-top:25px;
+	padding-left:65px;
+	font-size:20px;	
+	font-weight:bold;
+}
+.jindu
+{
+/* 	margin-right:50px; */
+}
+
+.lianjie a:link 
+{ 
+	text-decoration: none;
+	
+}
+.lianjie a:hover 
+{ text-decoration:none} 
+
+.product_list
+{
+	width:95%;
+	margin-left:25px;
+	margin-top:-20px;
+}
+
+.tebie
+{
+	margin-top:-20px;
+}
+
+
+
+.newpag
+{
+	padding-left:40px;
+}
+
+.start
+{
+	width:25%;
+}
+
+.start2
+{
+	width:25%;
+	margin-top:10px;
+}
+
+.tijiaopinlv
+{
+	margin-left:300px;
+	margin-top:0px;
+	padding-left:15px;
+	padding-right:15px;
+	
+	
+}
+.histab{
+	background: #f4f4f4;
+}
+
+
+		
+#product_Nav_tab li{font-weight:bold;}
+
+.product_tab_content{  
+			position:relative;
+			padding: 10px 10px;
+		}
+
+#product_NavPane{
+			text-align: left;
+			border: 1px solid #dcdcdc;
+			margin-bottom:15px;
+			min-width:960px;
+		}	
+.newbottom{
+	margin-bottom:0px;
+}		
+.sourcenew{
+	font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: SimHei;
+    margin-bottom: -10px;
+}

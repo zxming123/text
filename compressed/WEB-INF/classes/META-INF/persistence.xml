@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	
+	<persistence-unit name="myjpa" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>com.dataprocess.entity.People</class>
+		<class>com.dataprocess.entity.Admin</class>
+		<class>com.dataprocess.entity.AllFields</class>
+		<class>com.dataprocess.entity.MapFields</class>
+		<class>com.dataprocess.entity.MapConditions</class>
+		<class>com.dataprocess.entity.SourceWeb</class>
+		<class>com.dataprocess.entity.Spider</class>
+		<class>com.dataprocess.entity.SpiderParameter</class>
+		<class>com.dataprocess.entity.BatchSpider</class>
+		<class>com.dataprocess.entity.BatchSpiderStep</class>
+		<class>com.dataprocess.entity.BatchSpiderValue</class>
+		<class>com.dataprocess.entity.TaskLog</class>
+		<class>com.dataprocess.entity.ConnectionInfo</class>
+		<class>com.dataprocess.entity.MapRelations</class>
+		<properties>
+			<!--配置Hibernate方言 -->
+			<property name="hibernate.dialect"
+				value="org.hibernate.dialect.MySQL5Dialect" />
+
+			<!--设置外连接抓取树的最大深度 -->
+			<property name="hibernate.max_fetch_depth" value="10" />
+			<!--自动输出schema创建DDL语句 -->
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.show_sql" value="false" />
+			<property name="hibernate.format_sql" value="true" />
+
+			<property name="hibernate.connection.provider_class"
+				value="org.hibernate.connection.ProxoolConnectionProvider" />
+			<property name="hibernate.proxool.pool_alias"
+				value="mysqlPool" />
+			<property name="hibernate.proxool.xml" value="proxool.xml" />
+		</properties>
+	</persistence-unit>
+
+</persistence>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<something-else-entirely>
+	<proxool>
+		<alias>mysqlPool</alias>
+		<driver-url>jdbc:mysql://10.214.192.66:3306/dataprocess?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull&amp;autoReconnect=true
+		</driver-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root" />
+			<property name="password" value="zju302" />
+		</driver-properties>
+		<house-keeping-sleep-time>150000</house-keeping-sleep-time>
+		<prototype-count>20</prototype-count>
+		<maximumActiveTime>12000000</maximumActiveTime>
+		<simultaneousBuildThrottle>1500</simultaneousBuildThrottle>
+		<maximum-connection-count>1100</maximum-connection-count>
+		<minimum-connection-count>20</minimum-connection-count>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>
+
+</something-else-entirely>    

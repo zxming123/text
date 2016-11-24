@@ -1,0 +1,148 @@
+a{
+	text-decoration: none !important;
+}
+a:hover{
+	 text-decoration: none !important;
+}
+
+nav .nav_top{
+	display: block;
+    width: 280px;
+    padding: 0.809em;
+    margin-bottom: 0.809em;
+    z-index: 200;
+    background-color: #003366;
+    text-align: center;
+    padding: 0.809em;
+    display: block;
+    color: #fcfcfc;
+    margin-bottom: 0.809em;
+	min-height:140px;
+	border-bottom:3px solid #fff;
+}
+
+.nav-side {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 1em;
+    width: 280px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-height: 100%;
+    background: #343131;
+    z-index: 200;
+}
+
+.side-scroll {
+    width: 320px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.nav_top .title{
+	color: #fcfcfc;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 4px 6px;
+    margin-bottom: 0.809em;
+	line-height:40px;
+}
+
+.nav-menu-vertical header, .nav-menu-vertical p.caption {
+    height: 32px;
+    display: inline-block;
+    line-height: 32px;
+    padding: 0 1.618em;
+    margin-bottom: 0;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 80%;
+    color: #FFFFCC;
+    white-space: nowrap;
+}
+
+.nav-menu-vertical ul{
+	padding:0px !important;
+}
+.nav-menu-vertical li{
+	padding:0px !important;
+}
+
+.nav-menu-vertical li>a {
+    display: inline-block;
+    line-height: 18px;
+    padding: 0.4045em 1.618em;
+	padding-left:45px;
+    display: block;
+    position: relative;
+    font-size: 90%;
+    color: #b3b3b3;
+}
+
+
+.nav-menu-vertical li>a:hover {
+    background-color: #4e4a4a;
+    cursor: pointer;
+}
+
+.nav-menu-vertical li>a:active,li>a:focus {
+    background-color: #2980B9;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+nav .dropmenu ul {
+    display: none;
+}
+nav .dropmenu ul>li>a{
+    padding-left:55px;
+}
+nav .dropmenu li.active >ul {
+    display: block;
+}
+nav .dropmenu li:hover > ul {
+	display: block;
+}
+nav .dropmenu li:active > ul{
+	display: block;
+}
+nav .dropmenu li:focus > ul{
+	display: block;
+}
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
+
+
+.dropmenu li>a.dropmenu{
+	font-weight: bold;
+    text-transform: uppercase;
+    font-size: 80%;
+    color: #FFFFCC;
+    white-space: nowrap;
+    padding-left:1.618em;
+}
+
+.main_content{
+	margin-left:280px;
+	
+}
+
+.caption.copyright{
+	position:absolute;
+	bottom:0px;
+	text-transform:capitalize !important;
+	color:#555 !important;
+}
+
+.welcome a{
+	color:#fff;
+	cursor: pointer;
+}
